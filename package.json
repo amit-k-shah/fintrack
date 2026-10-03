@@ -1,0 +1,10 @@
+{
+  "name": "fintrack",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "install-client": "npm install --prefix client"
+  }
+}
